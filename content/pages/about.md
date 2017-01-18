@@ -17,7 +17,7 @@ Here you can find [my CV](./../files/CV_AFrau.pdf)
 
 ##Contact: 
 
-ainafp at gmail.com, aina.frau-pascual at inria.fr
+ainafp at gmail.com
 
 ##Links
 
