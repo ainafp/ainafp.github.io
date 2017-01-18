@@ -11,6 +11,7 @@ PAGE_PATHS = ['pages']
 STATIC_PATHS = ['images', 'files']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
+DISPLAY_PAGES_ON_MENU = True
 
 TIMEZONE = 'Europe/Paris'
 
@@ -30,6 +31,7 @@ AUTHOR_FEED_RSS = None
 #('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),)
 
 # Social widget
+#SOCIAL = ()
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 

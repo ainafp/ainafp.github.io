@@ -23,6 +23,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+FEED_ATOM = None
 
 # Blogroll
 #LINKS = (('Google scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
@@ -31,6 +32,7 @@ AUTHOR_FEED_RSS = None
 #('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),)
 
 # Social widget
+#SOCIAL = ()
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 

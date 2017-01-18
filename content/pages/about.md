@@ -1,7 +1,7 @@
 title: About me
 save_as: index.html
 
-I did my PhD in applied mathematics at the Univeristé de Grenoble, being co-supervised by [Florence FORBES](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, and by [Philippe CIUCIU](https://sites.google.com/site/philippeciuciu/) at [Inria Saclay Île-de-France](https://www.inria.fr/centre/saclay) [Parietal](https://team.inria.fr/parietal/research/) team, at CEA/Neurospin. I am also part of the Laboratoire Jean Kuntzmann.
+I did my PhD in applied mathematics at the Univeristé de Grenoble, co-supervised by [Florence FORBES](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, and by [Philippe CIUCIU](https://sites.google.com/site/philippeciuciu/) at [Inria Saclay Île-de-France](https://www.inria.fr/centre/saclay) [Parietal](https://team.inria.fr/parietal/research/) team, at CEA/Neurospin. I am also part of the Laboratoire Jean Kuntzmann.
 
 During my PhD I have worked on Bayesian methods for the analysis of BOLD and ASL functional MRI data. I am particularly interested in the study of the hemodynamic and perfusion responses due to evoked activity and in the potential clinical biomarkers that can derive from the study of these two fMRI modalities. 
 
