@@ -29,7 +29,7 @@ FEED_ALL_RSS = None
 TAG_FEED_ATOM = None
 
 # Blogroll
-LINKS = ()
+#LINKS = ()
 #LINKS = (('Google scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
 #('LinkedIn','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
 #('Github','https://github.com/ainafp'),
