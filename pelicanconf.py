@@ -36,7 +36,7 @@ TAG_FEED_ATOM = None
 #('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),)
 
 # Social widget
-SOCIAL = (('Bla', '#'))
+#SOCIAL = (('Bla', '#'))
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
