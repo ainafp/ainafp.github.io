@@ -23,7 +23,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_ATOM = None
-FEED_DOMAIN = None
 FEED_RSS = None
 FEED_ALL_ATOM = None
 FEED_ALL_RSS = None
@@ -36,7 +35,7 @@ TAG_FEED_ATOM = None
 #('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),)
 
 # Social widget
-#SOCIAL = ()
+SOCIAL = ()
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
