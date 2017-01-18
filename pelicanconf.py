@@ -46,8 +46,8 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Template
-#THEME='themes/pelican-sober'
-THEME='themes/pelican-blueidea'
+THEME='themes/pelican-sober'
+#THEME='themes/pelican-blueidea'
 
 # Plugins
 PLUGIN_PATHS=['plugins']
