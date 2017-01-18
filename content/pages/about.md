@@ -1,4 +1,5 @@
 title: About me
+save_as: index.html
 
 I did my PhD in applied mathematics at the Univeristé de Grenoble, being co-supervised by [Florence FORBES](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, and by [Philippe CIUCIU](https://sites.google.com/site/philippeciuciu/) at [Inria Saclay Île-de-France](https://www.inria.fr/centre/saclay) [Parietal](https://team.inria.fr/parietal/research/) team, at CEA/Neurospin. I am also part of the Laboratoire Jean Kuntzmann.
 
@@ -9,6 +10,9 @@ of the Balearic Islands (UIB).
 During my first masters degree project in Barcelona, I developed strategies to discriminate plausible from non-­plausible fiber tracts in diffusion MRI tractography using machine learning methods. In 2012, I did a master at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my current research topic.
 
 Here you can find [my CV](./../files/CV_AFrau.pdf)
+
+![my CV <>]({filename}/images/cv_map.png){:height="250px"}
+
 
 ##Contact: 
 

@@ -7,9 +7,11 @@ SITENAME = u'Aina Frau-Pascual'
 SITEURL = ''
 
 PATH = 'content'
+PAGE_PATHS = ['pages']
 STATIC_PATHS = ['images', 'files']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
+DISPLAY_PAGES_ON_MENU = True
 
 TIMEZONE = 'Europe/Paris'
 

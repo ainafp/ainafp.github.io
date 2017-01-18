@@ -1,12 +1,11 @@
 Title:Research
 
-## Interests
-
-Biomedical Image Processing and Analysis, Bayesian Models, Machine Learning, neuroimaging, functional and diffusion MRI.
-
 ## My PhD
 
 Here you can find my [PhD manuscript](./../files/Thesis_AFrauPascual.pdf) and the slides used in my [PhD defense](./../files/thesis.pdf).
+
+## Interests
+![]({filename}/images/research_interests.png){:height="250px" float:none!important }
 
 ## Publications
 
