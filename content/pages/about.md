@@ -12,7 +12,7 @@ During my first masters degree project in Barcelona, I developed strategies to d
 
 Here you can find [my CV](./../files/CV_AFrau.pdf)
 
-![my CV <>]({filename}/images/cv_map.png){:height="250px"}
+![cv_map]({filename}/images/cv_map.png){:height="250px"}
 
 
 ##Contact: 
