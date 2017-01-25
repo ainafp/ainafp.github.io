@@ -2,7 +2,7 @@ Title:Research
 
 ## My PhD
 
-Here you can find my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440495/document) and the slides used in my [PhD defense](./../files/thesis.pdf).
+Here you can find my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440495/document) and the slides used in my [PhD defense](./../files/PhD_slides_AFrauPascual.pdf).
 
 ## Interests
 ![]({filename}/images/research_interests.png){:height="250px" float:none!important }
