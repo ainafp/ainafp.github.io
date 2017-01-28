@@ -10,8 +10,6 @@ Before arriving to France, I studied Engineering in Telecommunication at the Pol
 of the Balearic Islands (UIB). 
 During my first masters degree project in Barcelona, I developed strategies to discriminate plausible from non-­plausible fiber tracts in diffusion MRI tractography using machine learning methods. In 2012, I did a master at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my current research topic.
 
-Here you can find [my CV](./../files/CV_AFrau.pdf)
-
 ![cv_map]({filename}/images/cv_map.png){:height="250px"}
 
 
