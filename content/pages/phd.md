@@ -1,4 +1,4 @@
-Title:My PhD
+Title:PhD
 
 In September 2013, I started my PhD in applied mathematics at Inria and at the Université de Grenoble. 
 I was supervised by [Florence FORBES](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, 

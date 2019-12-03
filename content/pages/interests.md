@@ -1,4 +1,4 @@
-Title:My Interests
+Title:Interests
 
 Some of my interests in research include:
 Biomedical Image Processing and Analysis, Bayesian Models, Machine Learning, neuroimaging, functional and diffusion MRI.
