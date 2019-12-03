@@ -10,7 +10,7 @@ Here you can find my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440
 
 I worked on Bayesian methods for the analysis of BOLD and ASL functional MRI data. I was particularly interested in the study of the hemodynamic and perfusion responses due to evoked activity and in the potential clinical biomarkers that could derive from the study of these two fMRI modalities.
 
-![]({filename}/images/asl_jde_fwd_model_small.png){:height="230px"}
+![]({filename}/images/asl_jde_fwd_model_small.png){:height="180px"}
 
 
 ## Publications
