@@ -8,18 +8,23 @@ Acquisition of functional MRI data in the 7T scanner and analysis of the data to
 MGH/HMS, Boston, MA
 Development of a global method that quantifies structural brain connectivity derived from diffusion MRI, with the use of a conductance model. Detecting structural brain connectivity differences in disease.
 
+![]({filename}/images/conductance.pdf){:width=80%}
+
 ##STATISTICAL MODELS FOR FMRI (2013-2016) 
 Inria, Paris, France
 Statistical Models for the coupling of ASL and BOLD Magnetic Resonance modalities to study brain function and disease.
--Creation of a parcellation of the brain based on hemodynamic features extracted from BOLD fMRI.
--Physiologically informed Bayesian analysis of ASL fMRI data.
--Physiological models comparison for the analysis of ASL FMRI data.
--Stochastic and Variational Solutions to ASL fMRI Data Analysis.
+*Creation of a parcellation of the brain based on hemodynamic features extracted from BOLD fMRI.
+*Physiologically informed Bayesian analysis of ASL fMRI data.
+*Physiological models comparison for the analysis of ASL FMRI data.
+*Stochastic and Variational Solutions to ASL fMRI Data Analysis.
+
+![]({filename}/images/ASLsignal_model_draw.png){:width=100%}
 
 ##GP FOR FMRI ANALYSIS (2016)
 CEA Neurospin, Inria-Saclay, France 
 Development of a non-parametric joint estimation method for functional MRI task activation values and the hemodynamic response function (HRF).
 The HRF was modeled as a Gaussian Process, making continuous evaluation possible.
 
+![]({filename}/images/gp.pdf){:width=50%}
 
 
