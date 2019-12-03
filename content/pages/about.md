@@ -12,7 +12,10 @@ Before arriving to France, I studied Engineering in Telecommunication at the Pol
 of the Balearic Islands (UIB). 
 In 2012, I did a master at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my PhD research topic.
 
-![cv_map]({filename}/images/cv_map.png){:width=80%}
+<p align="center">
+<img src="{filename}/images/cv_map.png" width=80%>
+</p>
+
 
 
 ##Contact: 
