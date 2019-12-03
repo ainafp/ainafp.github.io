@@ -1,11 +1,13 @@
 Title:Projects
 
+**
+
 ##7T FMRI PROJECT (2019 - Present) 
 *MGH/HMS, Boston, MA*
 
 Acquisition of functional MRI data in the 7T scanner and analysis of the data to find differences between subjects with cerebral amyloid angiopathy and healthy subjects.
 
-__
+**
 
 
 ##GLOBAL QUANTIFICATION OF STRUCTURAL CONNECTIVITY VIA A CONDUCTANCE MODEL (2018 - Present) 
