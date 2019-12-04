@@ -17,3 +17,9 @@ In 2012, I did a master at the ENS Cachan in applied mathematics, vision and mac
 </p>
 
 
+##Contact: 
+
+You can send me an email to [ainafp@gmail.com](mailto:ainafp@gmail.com)
+
+A list of publications can be found in [Google scholar](https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra).
+
