@@ -38,7 +38,7 @@ LINKS = (('Google scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAA
 #SOCIAL = None
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
-SOCIAL=(('Twitter', 'https://twitter.com/afraupascual'))
+SOCIAL=(('Twitter', 'https://twitter.com/afraupascual'),)
 
 DEFAULT_PAGINATION = 10
 
