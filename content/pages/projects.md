@@ -43,7 +43,7 @@ Development of a [non-parametric joint estimation method for functional MRI task
 The HRF was modeled as a Gaussian Process, making continuous evaluation possible.
 
 <p align="center">
-<img src="{filename}/images/gp.png" width=40%>
+<img src="{filename}/images/gp2.png" width=40%>
 </p>
 
 

@@ -6,7 +6,7 @@ I am currently a Research Fellow at the Massachusetts General Hospital and at Ha
 For the past two years, as part of the [Laboratory of Computational Neuroimaging](https://www.nmr.mgh.harvard.edu/lab/lcn), I have worked with [Iman Aganj](http://nmr.mgh.harvard.edu/~iman/) and [Bruce Fischl](https://www.nmr.mgh.harvard.edu/lab/lcn/people#bf) on the development of methods for diffusion and functional MRI data analysis to study brain connectivity.
 
 In December 2016, I finsihed my PhD in applied mathematics at Inria and at the Université de Grenoble, supervised by [Florence FORBES](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, and by [Philippe CIUCIU](https://sites.google.com/site/philippeciuciu/) at [Inria Saclay Île-de-France](https://www.inria.fr/centre/saclay) [Parietal](https://team.inria.fr/parietal/research/) team, at CEA/Neurospin. I was also part of the Laboratoire Jean Kuntzmann. 
-During my PhD I worked on Bayesian methods for the analysis of BOLD and ASL functional MRI data. I was particularly interested in the study of the hemodynamic and perfusion responses due to evoked activity and in the potential clinical biomarkers that could derive from the study of these two fMRI modalities. 
+During my PhD I worked on Bayesian methods for the analysis of BOLD and ASL functional MRI data.  
 
 Before arriving to France, I studied Engineering in Telecommunication at the Polytechnic University of Catalonia (UPC) and at the University 
 of the Balearic Islands (UIB). 
