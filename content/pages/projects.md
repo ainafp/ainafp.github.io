@@ -19,6 +19,7 @@ Development of a global method that quantifies structural brain connectivity der
 <img src="{filename}/images/conductance.png" width=70%>
 </p>
 
+&nbsp;
 
 ##STATISTICAL MODELS FOR FMRI (2013-2016) 
 *Inria, Paris, France*
@@ -35,6 +36,7 @@ Codes are available at [pyhrf.github.io](https://pyhrf.github.io/)
 <img src="{filename}/images/ASLsignal_model_draw.png" width=70%>
 </p>
 
+&nbsp;
 
 ##GP FOR FMRI ANALYSIS (2016)
 *CEA Neurospin, Inria-Saclay, France*
