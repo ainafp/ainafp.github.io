@@ -22,7 +22,7 @@ Development of a global method that quantifies structural brain connectivity der
 &nbsp;
 
 ##STATISTICAL MODELS FOR FMRI (2013-2016) 
-*Inria, Paris, France*
+*Inria, Grenoble and Paris, France*
 
 Statistical Models for the coupling of ASL and BOLD Magnetic Resonance modalities to study brain function and disease. 
 It included: 
