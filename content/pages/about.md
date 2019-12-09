@@ -6,7 +6,7 @@ I am currently a Research Fellow at the Massachusetts General Hospital and at Ha
 For the past two years, as part of the [Laboratory of Computational Neuroimaging](https://www.nmr.mgh.harvard.edu/lab/lcn), I have worked with [Iman Aganj](http://nmr.mgh.harvard.edu/~iman/) and [Bruce Fischl](https://www.nmr.mgh.harvard.edu/lab/lcn/people#bf) on the development of methods to study how the brain is connected. 
 We can look at brain connections in different ways using Magnetic Resonance Imaging (MRI):
 with diffusion MRI we model physical connections because it is sensitive to the structure of tissue; 
-with functional MRI we look at which brain regions are working synchronously and therefore are considered ``connected''.
+with functional MRI we look at which brain regions are working synchronously and therefore are considered "connected".
 
 In December 2016, I finished my PhD in applied mathematics at Inria and at the Université de Grenoble, 
 supervised by [Florence Forbes](http://mistis.inrialpes.fr/people/forbes/) at [Inria Grenoble Rhône-Alpes](https://www.inria.fr/centre/grenoble), [Mistis](https://mistis.inrialpes.fr/) team, 
