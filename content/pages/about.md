@@ -14,7 +14,7 @@ supervised by [Florence Forbes](http://mistis.inrialpes.fr/people/forbes/) at [I
 and by [Philippe Ciuciu](https://sites.google.com/site/philippeciuciu/) at [Inria Saclay Île-de-France](https://www.inria.fr/centre/saclay) [Parietal](https://team.inria.fr/parietal/research/) team, at CEA/Neurospin. 
 I was also part of the Laboratoire Jean Kuntzmann. 
 During my PhD I worked on Bayesian methods for the analysis of BOLD and ASL functional MRI data. 
-These are two functional MRI modalities that look at blood oxygenation changes that occurr in a certain brain region when it is active.
+These are two functional MRI modalities that look at blood oxygenation changes that occur in a certain brain region when it is active.
 I specifically looked at the changes that are related to certain tasks performed during the scanning.
 My work focused on the development of statistical models that helped us in the detection of brain activity with higher specificity.
 
