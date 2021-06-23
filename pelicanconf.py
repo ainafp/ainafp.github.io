@@ -54,7 +54,9 @@ DEFAULT_PAGINATION = 10
 
 # Template
 #THEME='themes/pelican-sober'
-THEME='themes/pelican-blueidea'
+#THEME='themes/pelican-blueidea'
+#THEME='themes/pelican-blue'
+THEME='themes/pelican-hyde'
 
 # Plugins
 PLUGIN_PATHS=['plugins']
