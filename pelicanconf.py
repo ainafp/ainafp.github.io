@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Aina Frau-Pascual'
-SITENAME = u'Aina Frau-Pascual'
-SITESUBTITLE=u'PhD'
+SITENAME = u'Aina'
+SITESUBTITLE=u'Frau-Pascual, PhD'
 SITEURL = 'ainafp.github.io'
 PROFILE_IMAGE='aina_gscholar.jpeg'
 BIO='I am a research scientist with an interest in image processing and machine learning, with experience in brain imaging research'
