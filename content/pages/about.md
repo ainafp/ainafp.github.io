@@ -2,14 +2,12 @@ title: About me
 URL: 
 save_as: index.html
 
-I am a researcher interested in medical imaging, image processing, machine learning and how to leverage them to further understand the brain.
-
 I am currently a Research Fellow at the Massachusetts General Hospital and at Harvard Medical School, in Boston (USA). 
 For the past two years, as part of the [Laboratory of Computational Neuroimaging](https://www.nmr.mgh.harvard.edu/lab/lcn), 
 I have worked with [Iman Aganj](http://nmr.mgh.harvard.edu/~iman/) and [Bruce Fischl](https://www.nmr.mgh.harvard.edu/lab/lcn/people#bf) 
 on the development of methods for the analysis of Magnetic Resonance Imaging (MRI) data to study how the brain is connected, 
 physically looking at tissue structure with diffusion MRI and 
-functionally looking at patterns of synchronous activity with functional MRI. 
+functionally looking at patterns of synchronous activity with functional MRI. I have also worked in collaboration with several medical doctors, and participated in data acquisition. 
 
 From September 2013 to December 2016, I did my PhD in applied mathematics at Inria, France.
 I worked on the development of statistical models for the detection of brain activity from two different functional MRI modalities. 

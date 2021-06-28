@@ -7,7 +7,7 @@ SITENAME = u'Aina'
 SITESUBTITLE=u'Frau-Pascual, PhD'
 SITEURL = 'ainafp.github.io'
 PROFILE_IMAGE='aina_gscholar.jpeg'
-BIO='I am a research scientist with an interest in image processing and machine learning, with experience in brain imaging research'
+BIO='I am a research scientist with an interest in signal processing, machine learning and data analysis in healthcare, with experience in brain imaging research'
 
 PATH = 'content'
 PAGE_PATHS = ['pages']
@@ -51,7 +51,7 @@ SOCIAL=(
 )
 GITHUB_URL='https://github.com/ainafp'
 TWITTER_USERNAME='afraupascual'
-FONT_ACADEMICONS = True
+FONT_ACADEMICONS=True
 
 DEFAULT_PAGINATION = 10
 
