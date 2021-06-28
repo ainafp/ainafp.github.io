@@ -42,10 +42,10 @@ TAG_FEED_ATOM = None
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 SOCIAL=(
-('Google Scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
-('LinkedIn','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
+('googlescholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
+('linkedin','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
 ('github','https://github.com/ainafp'),
-('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),
+('researchgate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),
 ('twitter', 'https://twitter.com/afraupascual'),
 ('email', 'mailto:ainafp@gmail.com'),
 )
