@@ -16,14 +16,14 @@ You can read more about it [here](https://ainafp.github.io/pages/phd.html).
 Before arriving to France, I studied Engineering in Telecommunication at the Polytechnic University of Catalonia (UPC) and at the University of the Balearic Islands (UIB). 
 In 2012, I did a master at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my PhD research topic.
 
-<p align="center">
-<img src="{filename}/images/cv_map.png" width=80%>
-</p>
+%<p align="center">
+%<img src="{filename}/images/cv_map.png" width=80%>
+%</p>
 
 
-##Contact: 
+%##Contact: 
 
-You can send me an email to [ainafp@gmail.com](mailto:ainafp@gmail.com)
+%You can send me an email to [ainafp@gmail.com](mailto:ainafp@gmail.com)
 
-A list of publications can be found in [Google scholar](https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra).
+%A list of publications can be found in [Google scholar](https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra).
 
