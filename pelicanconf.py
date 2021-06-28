@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Aina Frau-Pascual'
 SITENAME = u'Aina Frau-Pascual'
+SITESUBTITLE=u'PhD'
 SITEURL = ''
 
 PATH = 'content'
@@ -46,6 +47,8 @@ SOCIAL=(
 ('Twitter', 'https://twitter.com/afraupascual'),
 #('email', 'mailto:ainafp@gmail.com'),
 )
+GITHUB_URL='https://github.com/ainafp'
+TWITTER_USERNAME='afraupascual'
 
 DEFAULT_PAGINATION = 10
 
