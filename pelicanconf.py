@@ -6,7 +6,7 @@ AUTHOR = u'Aina Frau-Pascual'
 SITENAME = u'Aina Frau-Pascual'
 SITESUBTITLE=u'PhD'
 SITEURL = 'ainafp.github.io'
-PROFILE_IMAGE='images/aina_gscholar.jpeg'
+PROFILE_IMAGE='aina_gscholar.jpeg'
 
 PATH = 'content'
 PAGE_PATHS = ['pages']
