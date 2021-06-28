@@ -2,7 +2,14 @@ Title:Projects
 
 &nbsp;
 
-##7T FMRI PROJECT (2019 - Present) 
+##DEVELOPMENT OF BIOMARKERS FOR THE CLASSIFICATION OF LESIONS IN ACUTE TRAUMATIC BRAIN INJURY (2020 - 2021) 
+*MGH/HMS, Boston, MA*
+
+Analysis of datasets with traumatic brain injury (TBI) patients and controls, to find differences in connectivity and identify the main hubs that affect consciousness. 
+
+&nbsp;
+
+##7T FMRI PROJECT (2019 - 2020) 
 *MGH/HMS, Boston, MA*
 
 Acquisition of functional MRI data in the 7T scanner and analysis of the data to find differences between subjects with cerebral amyloid angiopathy and healthy subjects.
@@ -10,7 +17,7 @@ Acquisition of functional MRI data in the 7T scanner and analysis of the data to
 &nbsp;
 
 
-##GLOBAL QUANTIFICATION OF STRUCTURAL CONNECTIVITY VIA A CONDUCTANCE MODEL (2017 - Present) 
+##GLOBAL QUANTIFICATION OF STRUCTURAL CONNECTIVITY VIA A CONDUCTANCE MODEL (2017 - 2020) 
 *MGH/HMS, Boston, MA*
 
 Development of a global method that quantifies structural brain connectivity derived from diffusion MRI, with the use of a conductance model. Detecting structural brain connectivity differences in disease. Here you can find the [paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811919300333?via%3Dihub) and [code](https://www.nitrc.org/projects/conductance).
