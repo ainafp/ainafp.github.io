@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = u'Aina Frau-Pascual'
 SITENAME = u'Aina Frau-Pascual'
 SITESUBTITLE=u'PhD'
-SITEURL = ''
+SITEURL = 'ainafp.github.io'
+PROFILE_IMAGE='images/aina_gscholar.jpeg'
 
 PATH = 'content'
 PAGE_PATHS = ['pages']
