@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Aina Frau-Pascual'
-SITENAME = u'Aina Frau-Pascual, PhD'
-SITESUBTITLE=u'Frau-Pascual, PhD'
+SITENAME = u'Aina Frau-Pascual'
+SITESUBTITLE=u'PhD'
 SITEURL = 'ainafp.github.io'
 PROFILE_IMAGE='aina_gscholar.jpeg'
 BIO='I am a research scientist with an interest in signal processing, machine learning and data analysis in healthcare, with experience in brain imaging research'
@@ -44,9 +44,9 @@ TAG_FEED_ATOM = None
 SOCIAL=(
 ('Google Scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
 ('LinkedIn','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
-('Github','https://github.com/ainafp'),
+('github','https://github.com/ainafp'),
 ('Research Gate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),
-('Twitter', 'https://twitter.com/afraupascual'),
+('twitter', 'https://twitter.com/afraupascual'),
 ('email', 'mailto:ainafp@gmail.com'),
 )
 #GITHUB_URL='https://github.com/ainafp'
