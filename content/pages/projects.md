@@ -6,6 +6,7 @@ Title:Projects
 *MGH/HMS, Boston, MA*
 
 Analysis of datasets with traumatic brain injury (TBI) patients and controls, to find differences in connectivity and identify the main hubs that affect consciousness. 
+Collaborations in the context of this work led to several journal publications, that can be found [here](https://www.sciencedirect.com/science/article/pii/S2213158220303405) and [here](https://www.sciencedirect.com/science/article/pii/S2215016120302144).
 
 &nbsp;
 
@@ -13,6 +14,7 @@ Analysis of datasets with traumatic brain injury (TBI) patients and controls, to
 *MGH/HMS, Boston, MA*
 
 Acquisition of functional MRI data in the 7T scanner and analysis of the data to find differences between subjects with cerebral amyloid angiopathy and healthy subjects.
+Some of the outputs of this project are a [journal paper](https://n.neurology.org/content/96/12/e1646.abstract) and an [OHBM 2021 abstract](https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=1602)
 
 &nbsp;
 
@@ -21,6 +23,7 @@ Acquisition of functional MRI data in the 7T scanner and analysis of the data to
 *MGH/HMS, Boston, MA*
 
 Development of a global method that quantifies structural brain connectivity derived from diffusion MRI, with the use of a conductance model. Detecting structural brain connectivity differences in disease. Here you can find the [paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811919300333?via%3Dihub) and [code](https://www.nitrc.org/projects/conductance).
+This method has been also used in the study of aging and Alzheimer's disease data, and the results were presented at the [2019 Asilomar](https://ieeexplore.ieee.org/abstract/document/9048747) and the [2020 ISBI](https://ieeexplore.ieee.org/abstract/document/9098440) conferences. The consequent journal paper can be found [here](https://www.liebertpub.com/doi/abs/10.1089/brain.2020.0903).
 
 <p align="center">
 <img src="{filename}/images/conductance.png" width=70%>
