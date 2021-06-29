@@ -15,20 +15,5 @@ I worked on Bayesian methods for the analysis of BOLD and ASL functional MRI dat
 </p>
 
 
-## Publications
-
-* J Arias, P Ciuciu, M Dojat, F Forbes, A Frau-Pascual, T Perret, J Warnking. 
-"PyHRF: A Python Library for the Analysis of fMRI Data Based on Local Estimation of the Hemodynamic Response Function." In 16th Python in Science Conference (SciPy 2017), 34-40
-
-* A Frau-Pascual, F Forbes, and P Ciuciu. "Comparison of stochastic and variational solutions to ASL fMRI data analysis." 
-In Medical Image Computing and Computer-Assisted Intervention MICCAI 2015, pp. 85-92. Springer International Publishing, 2015.
-
-* A Frau-Pascual, F Forbes, and P Ciuciu. "Physiological models comparison for the analysis of ASL fMRI data." 
-In Biomedical Imaging (ISBI), 2015 IEEE 12th International Symposium on, pp. 1348-1351. IEEE, 2015.
-
-* A Frau-Pascual, T Vincent, J Sloboda, P Ciuciu, and F Forbes. "Physiologically informed Bayesian analysis of ASL fMRI data." 
-In Bayesian and grAphical Models for Biomedical Imaging, pp. 37-48. Springer International Publishing, 2014.
-
-* A Frau-Pascual, T Vincent, F Forbes, and P Ciuciu. "Hemodynamically informed parcellation of cerebral FMRI data." 
-In Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE International Conference on, pp. 2079-2083. IEEE, 2014
+A list of publications can be found in [Google Scholar](https://scholar.google.com/citations?hl=en&user=ilC7VXwAAAAJ&view_op=list_works).
 
