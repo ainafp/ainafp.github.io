@@ -22,16 +22,16 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-#FEED_DOMAIN=None
-#CATEGORY_FEED_ATOM=None
-#TRANSLATION_FEED_ATOM=None
+FEED_DOMAIN=None
+CATEGORY_FEED_ATOM=None
+TRANSLATION_FEED_ATOM=None
 AUTHOR_FEED_ATOM=None
 AUTHOR_FEED_RSS=None
-FEED_ATOM=None
+FEED_ATOM=''
 FEED_RSS=None
 FEED_ALL_ATOM=''
 FEED_ALL_RSS=None
-#TAG_FEED_ATOM=None
+TAG_FEED_ATOM=None
 #TAG_FEED_RSS=None
 
 # Social widget
