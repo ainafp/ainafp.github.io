@@ -9,7 +9,7 @@ Analysis of datasets with traumatic brain injury (TBI) patients and controls, to
 
 &nbsp;
 
-##7T FMRI PROJECT (2019 - 2020) 
+##7T fMRI project (2019 - 2020) 
 *MGH/HMS, Boston, MA*
 
 Acquisition of functional MRI data in the 7T scanner and analysis of the data to find differences between subjects with cerebral amyloid angiopathy and healthy subjects.
@@ -17,7 +17,7 @@ Acquisition of functional MRI data in the 7T scanner and analysis of the data to
 &nbsp;
 
 
-##GLOBAL QUANTIFICATION OF STRUCTURAL CONNECTIVITY VIA A CONDUCTANCE MODEL (2017 - 2020) 
+##Global quantification of structural connectivity via a conductance model (2017 - 2020) 
 *MGH/HMS, Boston, MA*
 
 Development of a global method that quantifies structural brain connectivity derived from diffusion MRI, with the use of a conductance model. Detecting structural brain connectivity differences in disease. Here you can find the [paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811919300333?via%3Dihub) and [code](https://www.nitrc.org/projects/conductance).
@@ -28,7 +28,7 @@ Development of a global method that quantifies structural brain connectivity der
 
 &nbsp;
 
-##STATISTICAL MODELS FOR FMRI (2013-2016) 
+##Statistical models for fMRI (2013-2016) 
 *Inria, Grenoble and Paris, France*
 
 Statistical Models for the coupling of ASL and BOLD Magnetic Resonance modalities to study brain function and disease. 
@@ -45,7 +45,7 @@ Codes are available at [pyhrf.github.io](https://pyhrf.github.io/)
 
 &nbsp;
 
-##GP FOR FMRI ANALYSIS (2016)
+##Gaussian Processes for fMRI analysis (2016)
 *CEA Neurospin, Inria-Saclay, France*
 
 Development of a non-parametric joint estimation method for functional MRI task activation values and the hemodynamic response function (HRF). 
