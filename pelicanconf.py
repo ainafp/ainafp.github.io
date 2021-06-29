@@ -22,6 +22,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
+FEED_DOMAIN=None
 CATEGORY_FEED_ATOM=None
 TRANSLATION_FEED_ATOM=None
 AUTHOR_FEED_ATOM=None
@@ -31,6 +32,7 @@ FEED_RSS=None
 FEED_ALL_ATOM=None
 FEED_ALL_RSS=''
 TAG_FEED_ATOM=None
+TAG_FEED_RSS=None
 
 # Social widget
 SOCIAL=(
@@ -39,7 +41,7 @@ SOCIAL=(
        ('google-scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
        ('github','https://github.com/ainafp'),
        ('twitter', 'https://twitter.com/afraupascual'),
-)
+       )
 FONT_ACADEMICONS=True
 
 DEFAULT_PAGINATION = 10
