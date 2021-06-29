@@ -2,7 +2,7 @@ Title:Projects
 
 &nbsp;
 
-##DEVELOPMENT OF BIOMARKERS FOR THE CLASSIFICATION OF LESIONS IN ACUTE TRAUMATIC BRAIN INJURY (2020 - 2021) 
+##Development of biomarkers of brain connectivity disruption in acute traumatic brain injury (2020 - 2021) 
 *MGH/HMS, Boston, MA*
 
 Analysis of datasets with traumatic brain injury (TBI) patients and controls, to find differences in connectivity and identify the main hubs that affect consciousness. 
