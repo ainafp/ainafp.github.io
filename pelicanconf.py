@@ -28,18 +28,17 @@ AUTHOR_FEED_ATOM=None
 AUTHOR_FEED_RSS=None
 FEED_ATOM=None
 FEED_RSS=None
-FEED_ALL_ATOM=None
+FEED_ALL_ATOM=''
 FEED_ALL_RSS=None
 TAG_FEED_ATOM=None
 
 # Social widget
 SOCIAL=(
-('google-scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
-('linkedin','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
-('github','https://github.com/ainafp'),
-#('researchgate','https://www.researchgate.net/profile/Aina_Frau_Pascual'),
-('twitter', 'https://twitter.com/afraupascual'),
-('email', 'mailto:ainafp@gmail.com'),
+       ('email', 'mailto:ainafp@gmail.com'),
+       ('linkedin','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
+       ('google-scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
+       ('github','https://github.com/ainafp'),
+       ('twitter', 'https://twitter.com/afraupascual'),
 )
 FONT_ACADEMICONS=True
 
