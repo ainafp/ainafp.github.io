@@ -14,7 +14,7 @@ Collaborations in the context of this work led to several journal publications, 
 *MGH/HMS, Boston, MA*
 
 Acquisition of functional MRI data in the 7T scanner and analysis of the data to find differences between subjects with cerebral amyloid angiopathy and healthy subjects.
-Some of the outputs of this project are a [journal paper](https://n.neurology.org/content/96/12/e1646.abstract) and an [OHBM 2021 abstract](https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=1602)
+Some of the outputs of this project are a [journal paper](https://n.neurology.org/content/96/12/e1646.abstract) and an [OHBM 2021 abstract](https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=1602).
 
 &nbsp;
 
