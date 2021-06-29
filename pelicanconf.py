@@ -32,6 +32,7 @@ FEED_RSS=None
 FEED_ALL_ATOM=None
 FEED_ALL_RSS=''
 TAG_FEED_ATOM=None
+TAG_FEED_RSS=None
 
 # Social widget
 SOCIAL=(
