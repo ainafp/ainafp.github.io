@@ -37,7 +37,7 @@ TAG_FEED_RSS=None
 # Social widget
 SOCIAL=(
        ('email', 'mailto:ainafp@gmail.com'),
-       ('linkedin','https://www.linkedin.com/in/aina-frau-pascual-3116a936?trk=nav_responsive_tab_profile_pic'),
+       ('linkedin','https://www.linkedin.com/in/afraupascual'),
        ('google-scholar', 'https://scholar.google.fr/citations?user=ilC7VXwAAAAJ&hl=en&oi=sra'),
        ('github','https://github.com/ainafp'),
        ('twitter', 'https://twitter.com/afraupascual'),
