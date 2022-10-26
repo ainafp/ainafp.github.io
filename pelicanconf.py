@@ -57,8 +57,8 @@ THEME='themes/pelican-hyde'
 
 # Plugins
 PLUGIN_PATHS=['plugins']
-PLUGINS=['pelican-bibtex']
+#PLUGINS=['pelican-bibtex']
 
 # Bibliography
-PUBLICATIONS_SRC='content/files/mybiblio.bib'
+#PUBLICATIONS_SRC='content/files/mybiblio.bib'
 
