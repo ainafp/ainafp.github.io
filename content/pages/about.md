@@ -14,6 +14,6 @@ From September 2013 to December 2016, I did my PhD in applied mathematics at Inr
 I worked on the development of statistical models for the detection of brain activity from two different functional MRI modalities. 
 You can read more about it [here](https://ainafp.github.io/pages/phd.html).
 
-Before arriving to France, I studied Engineering in Telecommunication at the Polytechnic University of Catalonia (UPC) and at the University of the Balearic Islands (UIB). 
-In 2012, I did a master at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my PhD research topic.
+Before arriving to France, I studied Electrical and Computer Engineering at the University of the Balearic Islands and at the Polytechnic University of Catalonia (UPC), BSc and MSc respectively. 
+In 2012, I did a master of science (MSc) at the ENS Cachan in applied mathematics, vision and machine learning, which lead me to my PhD research topic.
 
