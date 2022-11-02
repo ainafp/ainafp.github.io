@@ -6,6 +6,9 @@ and by [Philippe CIUCIU](https://sites.google.com/site/philippeciuciu/) at [Inri
 
 Here you can find my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440495/document) and the slides used in my [PhD defense](./../files/PhD_slides_AFrauPascual.pdf). A list of publications can be found in [Google Scholar](https://scholar.google.com/citations?hl=en&user=ilC7VXwAAAAJ&view_op=list_works).
 
+&nbsp;
+
+&nbsp;
 
 ## Background: brain MR imaging modalities
 
