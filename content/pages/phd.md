@@ -73,6 +73,7 @@ Quantified values can be achieved by applying a transformation proposed in the l
 
 So in contrast with BOLD, ASL provides a quantitative measure of CBF instead of an indirect absolute measure of a mix of parameters, but it has a lower SNR and therefore lower resolution than BOLD. ASL has been compared to BOLD in the literature, and has been found to have low inter-session variability and to find more localized activity. Compared to other perfusion imaging techniques, as BOLD imaging, ASL is non invasive and non ionizing. The main drawback of ASL with respect to BOLD is the time resolution limitation: ASL needs to wait for the blood to get to the capillary bed and this can not be avoided. BOLD, on the other hand, keeps being pushed to faster acquisition times.
 
+&nbsp;
 
 ## My PhD: what was it about?
 
