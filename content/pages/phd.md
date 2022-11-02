@@ -8,7 +8,6 @@ Here you can find my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440
 
 &nbsp;
 
-&nbsp;
 
 ## Background: brain MR imaging modalities
 
@@ -36,7 +35,7 @@ The BOLD effect uses hemoglobin as a natural contrast agent. What BOLD really me
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/hemoglobin.pdf" width=50%>
+<img src="{filename}/images/hemoglobin.png" width=50%>
 </p>
 
 &nbsp;
@@ -59,13 +58,13 @@ To measure CBF directly, pulsed ASL modifies the blood being perfused to the bra
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/ASL_acquisition_mysite.pdf" width=70%>
+<img src="{filename}/images/ASL_acquisition_mysite.png" width=70%>
 </p>
 
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/asl_control_tag_sequence_bigger_new.pdf" width=70%>
+<img src="{filename}/images/asl_control_tag_sequence_bigger_new.png" width=70%>
 </p>
 
 &nbsp;
@@ -112,7 +111,7 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/bayes_formula.pdf" width=30%>
+<img src="{filename}/images/bayes_formula.png" width=30%>
 </p>
 
 &nbsp;
