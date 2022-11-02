@@ -22,7 +22,7 @@ This experimental paradigm is designed to activate neurons in certain regions of
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/fmri.png" width=80%>
+<img src="{filename}/images/fmri.png" width=90%>
 </p>
 
 &nbsp;
@@ -41,7 +41,7 @@ The BOLD effect uses hemoglobin as a natural contrast agent. What BOLD really me
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/bold.png" width=80%>
+<img src="{filename}/images/bold.png" width=90%>
 </p>
 
 &nbsp;
@@ -58,13 +58,13 @@ To measure CBF directly, pulsed ASL modifies the blood being perfused to the bra
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/ASL_acquisition_mysite.png" width=70%>
+<img src="{filename}/images/ASL_acquisition_mysite.png" width=80%>
 </p>
 
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/asl_control_tag_sequence_bigger_new.png" width=70%>
+<img src="{filename}/images/asl_control_tag_sequence_bigger_new.png" width=80%>
 </p>
 
 &nbsp;
@@ -96,7 +96,7 @@ We have pretty good idea of how these responses look like.
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/ASLsignal_model_draw.png" width=50%>
+<img src="{filename}/images/ASLsignal_model_draw.png" width=90%>
 </p>
 
 &nbsp;
@@ -112,7 +112,7 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 &nbsp;
 
 <p align="center">
-<img src="{filename}/images/bayes_formula.png" width=30%>
+<img src="{filename}/images/bayes_formula.png" width=50%>
 </p>
 
 &nbsp;
