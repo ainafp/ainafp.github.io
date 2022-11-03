@@ -130,10 +130,16 @@ This experimental paradigm is designed to activate neurons in certain regions of
 <p>Now that we know what is fMRI, BOLD and ASL, what was my thesis about?
 I investigated statistical models for the analysis of ASL and BOLD fMRI modalities, with a focus on ASL, because it has a high potential but it is not widely used.</p>
 <h3>Signal model for ASL</h3>
-<p>First of all, we derived a signal model for ASL. How did we do it? ASL data is a time series with alternative control and tag images, both with a BOLD component. 
-   * The difference image (control - tag) reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF.
-   * The addition image (control + tag) gives us a contaminated BOLD effect, with lower resolution than the BOLD images and lower SNR.
-In the end, control and tag images have both a BOLD component, the tag image has a negative perfusion component, and the control image has a positive one. </p>
+<p>First of all, we derived a signal model for ASL. How did we do it? ASL data is a time series with alternative control and tag images, both with a BOLD component. </p>
+<ul>
+<li>
+<p>The difference image (control - tag) reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF.</p>
+</li>
+<li>
+<p>The addition image (control + tag) gives us a contaminated BOLD effect, with lower resolution than the BOLD images and lower SNR.</p>
+</li>
+</ul>
+<p>In the end, control and tag images have both a BOLD component, the tag image has a negative perfusion component, and the control image has a positive one. </p>
 <p>The signal model is a representation of the signal with mathematics, and it reflects the CBF (or perfusion), and BOLD components. 
 For one voxel $$j$$, there are 2 dynamically changing components that are due to hemodynamic (BOLD) and perfusion changes induced by the stimulation paradigm or task (represented by $$X^m$$). 
 For each one, we have a response function that describes the behaviour in time and that we consider parcel-wise, and the amplitude of these functions or activaton levels, that are voxel-wise and change depending on the type of stimulus given to the subject, as it is supposed to “light up” the voxel differently. This maps of activation depend on a hidden variable $$q$$, that encodes activation/non-activation and that account for spatial regularization using a Markov Random Field.
@@ -155,10 +161,18 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 </p>
 
 <p>&nbsp;</p>
-<p>In our model, we consider parcels and we include several priors:
- * In a given parcel, we use a prior on the response functions ($$h$$ and $$g$$) to enforce temporal regularization. The goal is to get a temporally smooth response function, and we it by including a Gaussian prior with a covariance matrix that enforces this smoothness.
- * We include priors on the response levels ($$a$$ and $$c$$) to enforce spatial regularization. For this, we use a Markov Random Field model, that introduces spatial smoothness.
- * We include a physiological prior that we derive from physiological models -- Balloon and hemodynamic models -- described in the literature. These models describe the oxygen concentration changes in the blood vessels with a system of differential equations. These equations relate neural stimulus, local blood flow, local capillary volume and concentration of oxygen in the blood. We linearize this system of equations to derive an approximate linear link between the CBF and BOLD responses. This way, we facilitate the estimation of both, but mostly of the CBF response.</p>
+<p>In our model, we consider parcels and we include several priors:</p>
+<ul>
+<li>
+<p>In a given parcel, we use a prior on the response functions ($$h$$ and $$g$$) to enforce temporal regularization. The goal is to get a temporally smooth response function, and we it by including a Gaussian prior with a covariance matrix that enforces this smoothness.</p>
+</li>
+<li>
+<p>We include priors on the response levels ($$a$$ and $$c$$) to enforce spatial regularization. For this, we use a Markov Random Field model, that introduces spatial smoothness.</p>
+</li>
+<li>
+<p>We include a physiological prior that we derive from physiological models -- Balloon and hemodynamic models -- described in the literature. These models describe the oxygen concentration changes in the blood vessels with a system of differential equations. These equations relate neural stimulus, local blood flow, local capillary volume and concentration of oxygen in the blood. We linearize this system of equations to derive an approximate linear link between the CBF and BOLD responses. This way, we facilitate the estimation of both, but mostly of the CBF response.</p>
+</li>
+</ul>
 <p>We have many different parameters and the posterior is intractable, due to the spatial prior in form of a Markov Random field. For this reason, we need for inference approximation. We can do it with Markov Chain Monte Carlo (MCMC) and Variational Expectation Maximization (VEM) methods. In my PhD, we investigated both solutions but focused on the VEM solution in the end. Although VEM makes an approximation, it reduces the computation cost greatly.</p>
 <p>For further information on the derived methods and analysis, check my <a href="https://tel.archives-ouvertes.fr/tel-01440495/document">PhD manuscript</a>.</p>
 <h3>Any conclusion or take-aways after all this work?</h3>
