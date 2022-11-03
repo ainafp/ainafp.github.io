@@ -57,7 +57,7 @@ THEME='themes/pelican-hyde'
 
 # Plugins
 PLUGIN_PATHS=['plugins','plugins/pelican-plugins']
-PLUGINS=['render_mathns']
+PLUGINS=['render_maths']
 #PLUGINS=['pelican-bibtex']
 #PLUGINS=['pelican-cite']
 
