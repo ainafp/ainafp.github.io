@@ -139,6 +139,7 @@ For one voxel $j$, there are 2 dynamically changing components that are due to h
 For each one, we have a response function that describes the behaviour in time and that we consider parcel-wise, and the amplitude of these functions or activaton levels, that are voxel-wise and change depending on the type of stimulus given to the subject, as it is supposed to “light up” the voxel differently. This maps of activation depend on a hidden variable $q$, that encodes activation/non-activation and that account for spatial regularization using a Markov Random Field.
 The signal has also a fixed perfusion baseline component with $W$ encoding the control/tag alternation, that completes the perfusion component, and noise and drifts. 
 We have pretty good idea of how these responses look like. </p>
+<p>&nbsp;</p>
 <p align="center">
 <img src="https://ainafp.github.io/images/ASLsignal_model_draw.png" width=90%>
 </p>
@@ -165,8 +166,39 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 </ul>
 <p>We have many different parameters and the posterior is intractable, due to the spatial prior in form of a Markov Random field. For this reason, we need for inference approximation. We can do it with Markov Chain Monte Carlo (MCMC) and Variational Expectation Maximization (VEM) methods. In my PhD, we investigated both solutions but focused on the VEM solution in the end. Although VEM makes an approximation, it reduces the computation cost greatly.</p>
 <p>For further information on the derived methods and analysis, check my <a href="https://tel.archives-ouvertes.fr/tel-01440495/document">PhD manuscript</a>.</p>
+<h3>Validation of the methods: data analysis</h3>
+<p>The validation of the methods was done with the HEROES dataset, a dataset acquired at CEA/Neurospin that has BOLD fMRI, functional ASL (pulsed ASL) and baseline ASL. The measurements that give also access to CBF quantification were also acquired: B1 Mapping and T1 PSSFP with angles 20◦ and 5◦. For the preprocessings, <a href="https://github.com/process-asl/process-asl">process-asl</a>, a python toolbox that uses nipype and SPM and has been developed at Neurospin, was used. </p>
+<p>The paradigm combines motor, auditory and visual tasks. The visual task consists in blocks of visual stimulation of 15sec followed by 10sec of rest. The motor tasks are performed during 10sec blocks overlapped with the visual tasks, with different delays. A beep sound is used together with a visual cue to indicate the motor task.</p>
+<p align="center">
+<img src="https://ainafp.github.io/images/paradigm.png" width=70%>
+</p>
+
+<p>Data was analysed and individual and group results were compared, using Bayesian methods and state of the art methods. ASL and BOLD signal results were also compared giving us some interesting insights and allowing us to validate our methods, which was the goal of this analysis.</p>
+<ul>
+<li>
+<p>Our Bayesian method found higher activation values than state of the art method in BOLD and ASL fMRI modalities.</p>
+</li>
+<li>
+<p>The average temporal responses were similar in BOLD and ASL, and were coherently similar in close regions.</p>
+</li>
+<li>
+<p>The estimation of temporal responses changed activation detection, finding more activated regions in BOLD, and more localized activated regions in ASL.</p>
+</li>
+<li>
+<p>The CBF component activation was found to be more localized than the BOLD one, as expected.</p>
+</li>
+</ul>
+<p align="center">
+<img src="https://ainafp.github.io/images/activation.png" width=60%>
+</p>
+
+<p align="center">
+<img src="https://ainafp.github.io/images/responses.png" width=70%>
+</p>
+
+<p>&nbsp;</p>
 <h3>Any conclusion or take-aways after all this work?</h3>
-<p>Our Bayesian approach was finding higher activation values and also more localized. The use of priors allows for a better modelling of the signal. Specifically, the use of physiological priors was very useful, and the physiological model parameters had to be well tuned to improve convergence of the estimation. However, the interpretation of the activation maps in Bayesian methods and its comparison with state of the art methods becomes challenging. Moreover, the computation cost of Bayesian methods is higher than state of the art methods.</p>
+<p>Our Bayesian approach was finding higher activation values and also more localized. The use of priors allows for a better modelling of the signal. Specifically, the use of physiological priors was very useful, and the physiological model parameters had to be well tuned to improve convergence of the estimation. However, the interpretation of the activation maps in Bayesian methods and its comparison with state of the art methods becomes challenging. The computation cost of Bayesian methods is also higher than state of the art methods.</p>
 <p>ASL provides a more localized activation than BOLD, which makes sense because we are measuring CBF directly. This could be very interesting in the study of brain activity. However, ASL has limitations in terms of resolution and signal to noise ratio. It is a very noisy signal and needs averaging, which is more challenging if you add tasks to the mix. ASL is very useful and already greatly used for resting state (subject not performing any task in the scanner). But probably the biggest challenge for using ASL in task fMRI experiments is its low temporal resolution, which can not be reduced under the time that the blood takes to get from the neck to the capillary bed. </p>
 
 		</div>
