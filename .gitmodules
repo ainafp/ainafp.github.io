@@ -1,3 +1,9 @@
 [submodule "themes/pelican-hyde"]
 	path = themes/pelican-hyde
 	url = https://github.com/jvanz/pelican-hyde.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "plugins/pelican-plugins"]
+	path = plugins/pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git

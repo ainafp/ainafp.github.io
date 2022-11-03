@@ -77,16 +77,16 @@ First of all, we derived a signal model for ASL. How did we do it? ASL data is a
 In the end, control and tag images have both a BOLD component, the tag image has a negative perfusion component, and the control image has a positive one. 
 
 The signal model is a representation of the signal with mathematics, and it reflects the CBF (or perfusion), and BOLD components. 
-For one voxel $$j$$, there are 2 dynamically changing components that are due to hemodynamic (BOLD) and perfusion changes induced by the stimulation paradigm or task (represented by $$X^m$$). 
-For each one, we have a response function that describes the behaviour in time and that we consider parcel-wise, and the amplitude of these functions or activaton levels, that are voxel-wise and change depending on the type of stimulus given to the subject, as it is supposed to “light up” the voxel differently. This maps of activation depend on a hidden variable $$q$$, that encodes activation/non-activation and that account for spatial regularization using a Markov Random Field.
-The signal has also a fixed perfusion baseline component with $$W$$ encoding the control/tag alternation, that completes the perfusion component, and noise and drifts. 
+For one voxel $j$, there are 2 dynamically changing components that are due to hemodynamic (BOLD) and perfusion changes induced by the stimulation paradigm or task (represented by $X^m$). 
+For each one, we have a response function that describes the behaviour in time and that we consider parcel-wise, and the amplitude of these functions or activaton levels, that are voxel-wise and change depending on the type of stimulus given to the subject, as it is supposed to “light up” the voxel differently. This maps of activation depend on a hidden variable $q$, that encodes activation/non-activation and that account for spatial regularization using a Markov Random Field.
+The signal has also a fixed perfusion baseline component with $W$ encoding the control/tag alternation, that completes the perfusion component, and noise and drifts. 
 We have pretty good idea of how these responses look like. 
 
 <p align="center">
 <img src="{filename}/images/ASLsignal_model_draw.png" width=90%>
 </p>
 
-You are probably asking yourself why do we need a signal model and how we are going to use it. In our analysis, we want to separate the different parts of the signal and look at them separately. For example, we can compare temporal patterns in different regions by looking at parameters $$h$$ and $$g$$, and we can learn about spatial patterns of task-related activation by looking at parameters $$a$$ and $$c$$. Each parameter estimated from the signal model gives us different information about that specific subject's brain.
+You are probably asking yourself why do we need a signal model and how we are going to use it. In our analysis, we want to separate the different parts of the signal and look at them separately. For example, we can compare temporal patterns in different regions by looking at parameters $h$ and $g$, and we can learn about spatial patterns of task-related activation by looking at parameters $a$ and $c$. Each parameter estimated from the signal model gives us different information about that specific subject's brain.
 
 
 ### Parameter estimation
@@ -100,9 +100,9 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 
 In our model, we consider parcels and we include several priors:
 
- * In a given parcel, we use a prior on the response functions ($$h$$ and $$g$$) to enforce temporal regularization. The goal is to get a temporally smooth response function, and we it by including a Gaussian prior with a covariance matrix that enforces this smoothness.
+ * In a given parcel, we use a prior on the response functions ($h$ and $g$) to enforce temporal regularization. The goal is to get a temporally smooth response function, and we it by including a Gaussian prior with a covariance matrix that enforces this smoothness.
  
- * We include priors on the response levels ($$a$$ and $$c$$) to enforce spatial regularization. For this, we use a Markov Random Field model, that introduces spatial smoothness.
+ * We include priors on the response levels ($a$ and $c$) to enforce spatial regularization. For this, we use a Markov Random Field model, that introduces spatial smoothness.
  
  * We include a physiological prior that we derive from physiological models -- Balloon and hemodynamic models -- described in the literature. These models describe the oxygen concentration changes in the blood vessels with a system of differential equations. These equations relate neural stimulus, local blood flow, local capillary volume and concentration of oxygen in the blood. We linearize this system of equations to derive an approximate linear link between the CBF and BOLD responses. This way, we facilitate the estimation of both, but mostly of the CBF response.
  
