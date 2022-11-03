@@ -19,32 +19,22 @@ An MR scanner is a huge magnet that records echo signals from tissues -- echoes 
 Functional MRI is the imaging of brain activity while a task is being done. In practice, a person is placed in a scanner and she/he performs an experimental paradigm (a task) while images of the brain are acquired. 
 This experimental paradigm is designed to activate neurons in certain regions of the brain, and we get this measures that are images. These images together make a brain volume video where we capture changes in time. But what are these images? What we actually see is where the blood goes after the activation happens. This is called the BOLD effect: blood oxygen level dependent.
 
-&nbsp;
-
 <p align="center">
 <img src="{filename}/images/fmri.png" width=90%>
 </p>
-
-&nbsp;
 
 
 ### What is the blood oxygen level dependent effect?
 
 The BOLD effect uses hemoglobin as a natural contrast agent. What BOLD really measures is the ratio of oxy- to deoxy-hemoglobin in the blood because these two states of hemoglobin have different magnetic properties and an increase in deoxyhemoglobin causes a BOLD signal decrease. And when does that happen? When there is brain activity in a certain region, there is a certain oxygen consumption and there is an increase in deoxyhemoglobin. As an effect, there is an inflow of oxygenated blood, which increases the local concentration of oxygenated blood and reduces the percentage of deoxyhemoglobin. This causes a BOLD signal change (~3-4% variation), that we measure as a percentage with respect to baseline. The BOLD effect is an interconnected mix of different changing signals: cerebral blood flow, cerebral blood volume, and oxygen consumption. 
 
-&nbsp;
-
 <p align="center">
 <img src="{filename}/images/hemoglobin.png" width=50%>
 </p>
 
-&nbsp;
-
 <p align="center">
 <img src="{filename}/images/bold.png" width=90%>
 </p>
-
-&nbsp;
 
 While all this is happening, the scanner is acquiring images often -- one every repetition time (TR) -- and we can therefore look at these changes in time, and infer the location of this oxygen consumption effect.
 
@@ -53,21 +43,17 @@ While all this is happening, the scanner is acquiring images often -- one every 
 
 Arterial spin labeling gives us the possibility of measuring cerebral blood flow (CBF) -- the blood coming to the brain through the neck -- specifically and in a quantitative manner. This is important because it is a more direct and precise measure than the BOLD effect. CBF is an important tool for clinicians, because it is typically altered in a number of pathologies: stroke, tumors, dementia, MS... The fact that ASL can be quantified opens possibilities for its use in the clinic and in research (e.g. compare fMRI experiments between and across patients).
 
-To measure CBF directly, pulsed ASL modifies the blood being perfused to the brain through the neck with a magnetic labeling (magnetic inversion). This labeled water molecules reach the capillary bed after some time and cause magnetic disturbances in the local tissue when water molecules from blood and tissue are exchanged. An MRI image is acquired to capture this effect. We then need a control image, acquired without labeling inflowing blood, to subtract to the labeled image. The difference image reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF. ASL data consists in alternated control and tag images.
-
-&nbsp;
+To measure CBF directly, pulsed ASL modifies the blood being perfused to the brain through the neck with a magnetic labeling (magnetic inversion). This labeled water molecules reach the capillary bed after some time and cause magnetic disturbances in the local tissue when water molecules from blood and tissue are exchanged. An MRI image is acquired to capture this effect. 
 
 <p align="center">
 <img src="{filename}/images/ASL_acquisition_mysite.png" width=80%>
 </p>
 
-&nbsp;
+We then need a control image, acquired without labeling inflowing blood, to subtract to the labeled image. The difference image reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF. ASL data consists in alternated control and tag images.
 
 <p align="center">
-<img src="{filename}/images/asl_control_tag_sequence_bigger_new.png" width=80%>
+<img src="{filename}/images/asl_control_tag_sequence_bigger_new.png" width=100%>
 </p>
-
-&nbsp;
 
 Quantified values can be achieved by applying a transformation proposed in the literature, and that considers parameters of the acquisition procedure and a measured relaxed magnetization (another image type).
 
@@ -96,13 +82,9 @@ For each one, we have a response function that describes the behaviour in time a
 The signal has also a fixed perfusion baseline component with $$W$$ encoding the control/tag alternation, that completes the perfusion component, and noise and drifts. 
 We have pretty good idea of how these responses look like. 
 
-&nbsp;
-
 <p align="center">
 <img src="{filename}/images/ASLsignal_model_draw.png" width=90%>
 </p>
-
-&nbsp;
 
 You are probably asking yourself why do we need a signal model and how we are going to use it. In our analysis, we want to separate the different parts of the signal and look at them separately. For example, we can compare temporal patterns in different regions by looking at parameters $$h$$ and $$g$$, and we can learn about spatial patterns of task-related activation by looking at parameters $$a$$ and $$c$$. Each parameter estimated from the signal model gives us different information about that specific subject's brain.
 
@@ -112,13 +94,9 @@ You are probably asking yourself why do we need a signal model and how we are go
 We have many unknown parameters in the signal model. Since we want to be able to estimate the temporal responses, we choose a Bayesian framework to account for prior knowledge on the parameters.
 In a Bayesian model, we try to estimate the posterior probability function of the parameters from the data or likelihood function and the prior knowledge that we input. The model evidence here is a normalizing constant and it is often intractable. 
 
-&nbsp;
-
 <p align="center">
 <img src="{filename}/images/bayes_formula.png" width=50%>
 </p>
-
-&nbsp;
 
 In our model, we consider parcels and we include several priors:
 
