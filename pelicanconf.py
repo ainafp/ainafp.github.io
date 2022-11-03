@@ -56,7 +56,8 @@ DEFAULT_PAGINATION = 10
 THEME='themes/pelican-hyde'
 
 # Plugins
-PLUGIN_PATHS=['plugins']
+PLUGIN_PATHS=['plugins','pelican-plugins']
+PLUGINS=['render_math']
 #PLUGINS=['pelican-bibtex']
 #PLUGINS=['pelican-cite']
 
