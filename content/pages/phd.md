@@ -84,6 +84,8 @@ For each one, we have a response function that describes the behaviour in time a
 The signal has also a fixed perfusion baseline component with $W$ encoding the control/tag alternation, that completes the perfusion component, and noise and drifts. 
 We have pretty good idea of how these responses look like. 
 
+&nbsp;
+
 <p align="center">
 <img src="{filename}/images/ASLsignal_model_draw.png" width=90%>
 </p>
@@ -113,9 +115,40 @@ We have many different parameters and the posterior is intractable, due to the s
 For further information on the derived methods and analysis, check my [PhD manuscript](https://tel.archives-ouvertes.fr/tel-01440495/document).
 
 
+### Validation of the methods: data analysis
+
+The validation of the methods was done with the HEROES dataset, a dataset acquired at CEA/Neurospin that has BOLD fMRI, functional ASL (pulsed ASL) and baseline ASL. The measurements that give also access to CBF quantification were also acquired: B1 Mapping and T1 PSSFP with angles 20◦ and 5◦. For the preprocessings, [process-asl](https://github.com/process-asl/process-asl), a python toolbox that uses nipype and SPM and has been developed at Neurospin, was used. 
+
+The paradigm combines motor, auditory and visual tasks. The visual task consists in blocks of visual stimulation of 15sec followed by 10sec of rest. The motor tasks are performed during 10sec blocks overlapped with the visual tasks, with different delays. A beep sound is used together with a visual cue to indicate the motor task.
+
+<p align="center">
+<img src="{filename}/images/paradigm.png" width=70%>
+</p>
+
+Data was analysed and individual and group results were compared, using Bayesian methods and state of the art methods. ASL and BOLD signal results were also compared giving us some interesting insights and allowing us to validate our methods, which was the goal of this analysis.
+
+* Our Bayesian method found higher activation values than state of the art method in BOLD and ASL fMRI modalities.
+
+* The average temporal responses were similar in BOLD and ASL, and were coherently similar in close regions.
+
+* The estimation of temporal responses changed activation detection, finding more activated regions in BOLD, and more localized activated regions in ASL.
+
+* The CBF component activation was found to be more localized than the BOLD one, as expected.
+
+<p align="center">
+<img src="{filename}/images/activation.png" width=60%>
+</p>
+
+<p align="center">
+<img src="{filename}/images/responses.png" width=70%>
+</p>
+
+
+&nbsp;
+
 ### Any conclusion or take-aways after all this work?
 
-Our Bayesian approach was finding higher activation values and also more localized. The use of priors allows for a better modelling of the signal. Specifically, the use of physiological priors was very useful, and the physiological model parameters had to be well tuned to improve convergence of the estimation. However, the interpretation of the activation maps in Bayesian methods and its comparison with state of the art methods becomes challenging. Moreover, the computation cost of Bayesian methods is higher than state of the art methods.
+Our Bayesian approach was finding higher activation values and also more localized. The use of priors allows for a better modelling of the signal. Specifically, the use of physiological priors was very useful, and the physiological model parameters had to be well tuned to improve convergence of the estimation. However, the interpretation of the activation maps in Bayesian methods and its comparison with state of the art methods becomes challenging. The computation cost of Bayesian methods is also higher than state of the art methods.
 
 ASL provides a more localized activation than BOLD, which makes sense because we are measuring CBF directly. This could be very interesting in the study of brain activity. However, ASL has limitations in terms of resolution and signal to noise ratio. It is a very noisy signal and needs averaging, which is more challenging if you add tasks to the mix. ASL is very useful and already greatly used for resting state (subject not performing any task in the scanner). But probably the biggest challenge for using ASL in task fMRI experiments is its low temporal resolution, which can not be reduced under the time that the blood takes to get from the neck to the capillary bed. 
 
