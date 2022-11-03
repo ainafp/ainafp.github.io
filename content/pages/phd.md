@@ -49,6 +49,8 @@ To measure CBF directly, pulsed ASL modifies the blood being perfused to the bra
 <img src="{filename}/images/ASL_acquisition_mysite.png" width=80%>
 </p>
 
+&nbsp;
+
 We then need a control image, acquired without labeling inflowing blood, to subtract to the labeled image. The difference image reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF. ASL data consists in alternated control and tag images.
 
 <p align="center">
