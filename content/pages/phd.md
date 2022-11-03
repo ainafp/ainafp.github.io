@@ -83,8 +83,11 @@ I investigated statistical models for the analysis of ASL and BOLD fMRI modaliti
 ### Signal model for ASL
 
 First of all, we derived a signal model for ASL. How did we do it? ASL data is a time series with alternative control and tag images, both with a BOLD component. 
+
    * The difference image (control - tag) reflects the amount of arterial blood delivered to each voxel within the transit time.  The proportion of CBF is about 1% of the baseline CBF.
+   
    * The addition image (control + tag) gives us a contaminated BOLD effect, with lower resolution than the BOLD images and lower SNR.
+   
 In the end, control and tag images have both a BOLD component, the tag image has a negative perfusion component, and the control image has a positive one. 
 
 The signal model is a representation of the signal with mathematics, and it reflects the CBF (or perfusion), and BOLD components. 
@@ -118,8 +121,11 @@ In a Bayesian model, we try to estimate the posterior probability function of th
 &nbsp;
 
 In our model, we consider parcels and we include several priors:
+
  * In a given parcel, we use a prior on the response functions ($$h$$ and $$g$$) to enforce temporal regularization. The goal is to get a temporally smooth response function, and we it by including a Gaussian prior with a covariance matrix that enforces this smoothness.
+ 
  * We include priors on the response levels ($$a$$ and $$c$$) to enforce spatial regularization. For this, we use a Markov Random Field model, that introduces spatial smoothness.
+ 
  * We include a physiological prior that we derive from physiological models -- Balloon and hemodynamic models -- described in the literature. These models describe the oxygen concentration changes in the blood vessels with a system of differential equations. These equations relate neural stimulus, local blood flow, local capillary volume and concentration of oxygen in the blood. We linearize this system of equations to derive an approximate linear link between the CBF and BOLD responses. This way, we facilitate the estimation of both, but mostly of the CBF response.
  
 We have many different parameters and the posterior is intractable, due to the spatial prior in form of a Markov Random field. For this reason, we need for inference approximation. We can do it with Markov Chain Monte Carlo (MCMC) and Variational Expectation Maximization (VEM) methods. In my PhD, we investigated both solutions but focused on the VEM solution in the end. Although VEM makes an approximation, it reduces the computation cost greatly.
